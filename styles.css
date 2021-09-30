@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&family=Port+Lligat+Sans&display=swap');
+.su {
+    font-family: 'Kaushan Script', cursive;
+    color: rgb(73, 52, 16);
+    text-shadow: white 2px 1px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 68px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Port Lligat Sans', sans-serif;
+    text-shadow: white 1px 1px;
+    text-align: center;
+}
+
+html {
+    font-size: 16px;
+    scroll-padding-top: 68px;
+    font-family: 'Poppins', sans-serif;
+    /* box-sizing: border-box; */
+}
+
+body {
+    background-image: linear-gradient( rgb(255, 248, 205), rgb(243, 243, 227));
+}
+
+header {
+    position: fixed;
+    top: 0;
+    height: 64px;
+    background-color: rgb(255, 240, 223);
+    display: block;
+    width: 100%;
+    border-bottom: 4px solid rgb(161, 124, 0);
+}
+
+nav {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#logo {
+    background: linear-gradient(to right, rgba(255, 240, 223, 0.5) 75%, rgba(255, 240, 223, 1)), url(images/jeep.jpg) center;
+    background-size: cover;
+    font-size: 38px;
+    display: flex;
+    padding: 4px 350px 0 16px;
+    justify-items: flex-start;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+}
+
+header li {
+    display: inline-block;
+    margin-right: 16px;
+}
+
+main {
+    margin-top: 68px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1024px;
+}
+
+#splash {
+    padding-top: 16px;
+}
+
+#splash .container {
+    margin: 32px auto;
+    max-width: 800px;
+    background: radial-gradient(rgba(255, 240, 223, 0), rgba(255, 240, 223, 0.5)), url(images/pawprints.jpg) center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 4px solid rgb(161, 124, 0);
+    border-radius: 32px;
+    row-gap: 24px;
+    padding: 24px;
+    box-shadow: 10px 10px 20px black;
+}
+
+#splash h1 {
+    font-size: 96px;
+}
+
+#splash h2 {
+    font-size: 48px;
+}
+
+#splash h3 {
+    font-size: 40px;
+}
+
+#mission {
+    max-width: 600px;
+    margin: 50px auto 50px;
+}
+
+#activities .container,
+#people .container {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 16px;
+    gap: 16px;
+    justify-content: center;
+}
+
+.activity {
+    display: flex;
+    max-width: 300px;
+    padding: 16px;
+    background-color: white;
+    align-items: flex-start;
+}
+
+.activity img {
+    margin-right: 12px;
+    width: 50%;
+    max-width: 100px;
+    height: auto;
+}
+
+.person {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    align-items: center;
+    gap: 16px;
+    background-color: rgb(214, 236, 169);
+    padding: 12px;
+    border-radius: 6px;
+}
+
+.person img {
+    width: 75%;
+    height: auto;
+}
+
+footer {
+    margin-top: 64px;
+    display: flex;
+    height: 24px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+footer p {
+    background-color: whitesmoke;
+    border-radius: 12px;
+    padding: 6px;
+}
